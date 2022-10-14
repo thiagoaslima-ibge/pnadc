@@ -266,6 +266,9 @@ input:checked + .slider:before {
 		&--focus { z-index:13; }
 	}
 }	
+.lining-figures {	
+  @include prefix(font-feature-settings, normal, webkit moz ms);
+}
 .old-style-figures {	
   @include prefix(font-feature-settings, "onum" 1, webkit moz ms);
 }

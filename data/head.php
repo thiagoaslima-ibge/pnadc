@@ -1,3 +1,8 @@
+<?php 
+  $nomeCurso = "Pesquisa Nacional por Amostra de Domicílios Contínua";
+  require_once './imports/icons.php'; 
+?>
+
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html lang="pt-br" dir="ltr" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html lang="pt-br" dir="ltr" class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -31,7 +36,8 @@
     var nextPage = proximaPagina();//Proxima pagina
   </script>
 </head>
-<body onload="iniciaNavegacao()" onunload="encerraNavegacao()" onbeforeunload="encerraNavegacao()">
+<!-- <body class="curso-estatistica" onload="iniciaNavegacao()" onunload="encerraNavegacao()" onbeforeunload="encerraNavegacao()"> -->
+<body class="curso-estatistica" onunload="encerraNavegacao()" onbeforeunload="encerraNavegacao()">
   <!--[if lt IE 7]>
     <p class="obsoletebrowser">Você está usando um navegador de internet obsoleto. Por favor atualize para uma melhor experiência.</p>
   <![endif]-->
@@ -49,7 +55,7 @@
         <button class="functions__btn btn_menu" id="menu_btn" title="Selecione para ver o menu do curso." aria-haspopup="true" aria-controls="menu_course">Menu</button>
       </li>
     </ul>
-    <h1 class="main-header__heading-1" title="Nome do curso">Cenário globalizado</h1>
+    <h1 class="main-header__heading-1" title="Nome do curso"><?php echo $nomeCurso; ?></h1>
       <?php
         echo "<h2 class='main-header__heading-2' title='$moduleTitle'>$moduleTitle</h2>"
       ?>
