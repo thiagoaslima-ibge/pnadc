@@ -15,6 +15,74 @@ require "head.php";
 		vertical-align: middle;
 		margin-right: 0.63rem;
 	}
+
+	.tabela-atividades>div {
+		display: flex;
+		align-items: center;
+		margin: 15px 0;
+	}
+
+	.tabela-atividades p {
+		margin: 0;
+	}
+
+	.tabela-atividades p.label {
+		font-weight: normal;
+		text-align: left;
+		flex: 0 0 30%;
+		letter-spacing: -0.5px;
+		padding-right: 5px;
+	}
+
+	.tabela-atividades p.value {
+		flex: 0 0 14%;
+		padding-left: 10px;
+		color: #a0a0a0;
+	}
+
+	.tabela-atividades .barra {
+		height: 20px;
+	}
+
+	.tabela-atividades .barra[data-size="1"] {
+		flex: 0 0 14%;
+	}
+
+	.tabela-atividades .barra[data-size="2"] {
+		flex: 0 0 28%;
+	}
+
+	.tabela-atividades .barra[data-size="3"] {
+		flex: 0 0 42%;
+	}
+
+	.tabela-atividades .barra[data-size="4"] {
+		flex: 0 0 56%;
+	}
+
+	.tabela-atividades .barra[data-ident="1"] {
+		margin-left: 14%;
+	}
+
+	.tabela-atividades .barra[data-ident="2"] {
+		margin-left: 28%;
+	}
+
+	.tabela-atividades .barra[data-ident="3"] {
+		margin-left: 42%;
+	}
+
+	.tabela-atividades .barra.azul {
+		background-color: #2F5C8F;
+	}
+
+	.tabela-atividades .barra.rosa {
+		background-color: #B999BE;
+	}
+
+	.tabela-atividades .barra.laranja {
+		background-color: #D85C27;
+	}
 </style>
 
 <main class="page-content okgo">
@@ -43,9 +111,9 @@ require "head.php";
 				<p>"Eu lavo a louça e o banheiro, minha mãe varre, limpa a casa e cozinha. Meu pai é a madame que só come, dorme e suja. Minha mãe diz que ele é de outra época e que não vai mudar. Não acho justo que numa casa de três pessoas apenas duas façam as coisas", conta o estudante.</p>
 				<footer>
 					<p class="quote__author">
-					Fonte: <a href="https://www.correio24horas.com.br/noticia/nid/homens-estao-fazendo-menos-tarefas-domesticas-na-bahia-aponta-ibge/">
-						Correio 24 horas
-					</a>
+						Fonte: <a href="https://www.correio24horas.com.br/noticia/nid/homens-estao-fazendo-menos-tarefas-domesticas-na-bahia-aponta-ibge/">
+							Correio 24 horas
+						</a>
 					</p>
 				</footer>
 			</blockquote>
@@ -93,7 +161,7 @@ require "head.php";
 		</figure>
 		<div class="col-xs-22 col-xs-offset-1 col-sm-18 col-sm-offset-3 col-md-14 col-md-offset-5 col-lg-10 col-lg-offset-7">
 			<p>Neste quesito, o entrevistador irá marcar <strong>Sim</strong> ou <strong>Não</strong>, para cada um dos tipos de afazeres domésticos, para cada morador. A seguir, a lista completa, constante do DMC:</p>
-			
+
 			<!-- Lista ordenada [inicio] -->
 			<ul class="numeric-list">
 				<li>Preparar ou servir alimentos, arrumar a mesa ou lavar as louças?</li>
@@ -108,107 +176,203 @@ require "head.php";
 			<!-- Lista ordenada [fim] -->
 
 			<p>Observe as seguintes orientações, na seleção dos itens acima listados:</p>
+
+			<h5>Cuidado de animais domésticos</h5>
+			<p>São tarefas realizadas por morador do domicílio relativas à alimentação, limpeza, banho, passeio, assim como dar remédio, levar no veterinário etc.</p>
+
+			<h5>Cuidar da organização do domicílio</h5>
+			<p>Neste conjunto de atividades também se incluem: fazer lista de compras; planejar o cardápio da refeição; planejar o orçamento doméstico; fazer os pagamentos no banco, na internet ou diretamente ao prestador de serviços; estabelecer as atividades que o trabalhador doméstico deverá realizar ao longo do dia; chamar pintor, eletricista ou bombeiro hidráulico para fazer reparos ou obras etc.</p>
+
+			<h5>Fazer compras ou pesquisar preços de bens para o domicílio</h5>
+			<p>Neste conjunto de atividades deve ser considerada a realização de compras ou pesquisa de preço no estabelecimento comercial, por telefone ou internet.</p>
+
+			<h5>Cuidados com o automóvel</h5>
+			<p>Lavar o carro, levar ao mecânico ou para a vistoria é considerado afazer doméstico no item 3.</p>
+
+			<h5>Alimentos de grande durabilidade X alimentos de pouca durabilidade</h5>
+			<p>As atividades de preparo de alimentos de pouca durabilidade, para o consumo imediato ou a serem congelados, para consumo em período relativamente curto, devem ser consideradas como parte dos afazeres domésticos. Como exemplo temos o ato de fazer feijão, arroz, legumes, carnes e tortas.</p>
+			<p>Alimentos de grande durabilidade como a produção, o processamento e a conservação de carnes (abate de animais para produção de charque, de carne de sol, de peixe salgado, de linguiça defumada etc.) ou a produção de marmeladas, de goiabadas, de conservas, de queijos, de geleias, de farinha, de manteiga, de gordura animal, de massas caseiras, de torrefação e moagem de café etc. devem ser consideradas como produção para o próprio consumo. Portanto, para o presente quesito, diante de tal situação, o entrevistador deverá selecionar “Não”.</p>
+
+			<h5>Pequenos reparos &times; confecção</h5>
+			<p>Trocar zíper, botão, fazer bainha é afazer doméstico, abrangido por este quesito e deverá ser marcado “Sim” pelo entrevistador. Já fazer uma roupa é produção pra próprio consumo e deverá ser marcado “Não”, no presente quesito.</p>
+
+			<h5>Afazeres domésticos &times; construção para o próprio consumo</h5>
+			<p>Trocar lâmpada, pintar cômodo, rejuntar o piso, consertar uma tomada são consideradas atividades domésticas. Em contrapartida, reformas e grandes consertos no domicílio, realizadas por morador(es), tais como trocar toda a rede elétrica, azulejos, pisos, construir cômodo ou fazer ampliação do domicílio, não são atividades domésticas. Essas atividades devem ser consideradas como construção para o próprio uso.</p>
 		</div>
 		<!-- Quesito 120 [fim] -->
 
-		<!-- Quesito 117b [inicio] -->
+		<!-- Quesito 121a [inicio] -->
 		<div class="col-xs-22 col-xs-offset-1 col-sm-18 col-sm-offset-3 col-md-14 col-md-offset-5 col-lg-10 col-lg-offset-7">
 			<h2 class="survey">
 				<div class="survey-icon-container">
 					<?php echo getIcon('pnadc-survey') ?>
 				</div>
-				Quesito 117b
+				Quesito 121a
 			</h2>
 		</div>
 		<figure class="img-container">
 			<div class="col-xs-22 col-xs-offset-1 col-sm-10 col-sm-offset-3 col-md-8 col-md-offset-5 col-lg-6 col-lg-offset-7 gutter-sm-right">
 				<picture>
-					<source srcset="dist/img/modulo-outras-formas/md/outras--quesito117b.jpg" media="(min-width:600px)">
-					<source srcset="dist/img/modulo-outras-formas/sm/outras--quesito117b.jpg" media="(min-width:1px)">
-					<img class="image" src="dist/img/modulo-outras-formas/md/outras--quesito117b.jpg" alt="Quesito 117b contendo a pergunta 'Na semana de 11/04/2021 a 17/04/2021, a qual(ais) morador(es) dedicou esse(s) cuidados?'">
+					<source srcset="dist/img/modulo-outras-formas/md/outras--quesito121a.jpg" media="(min-width:600px)">
+					<source srcset="dist/img/modulo-outras-formas/sm/outras--quesito121a.jpg" media="(min-width:1px)">
+					<img class="image" src="dist/img/modulo-outras-formas/md/outras--quesito121a.jpg" alt="Quesito 121a contendo a pergunta 'Na semana de 11/04/2021 a 17/04/2021, fez alguma tarefa doméstica em domicílio de parente?'">
 				</picture>
 			</div>
 			<figcaption class="col-xs-22 col-xs-offset-1 col-sm-5 col-sm-offset-0 col-md-3 col-lg-2 img-container__caption">
 				<div class="img-container__top-line"></div>
-				Quesito <span class="old-style-figures">117b</span> do questionário da <abbr title="Pesquisa Nacional por Amostra de Domicílios" class="small-caps">PNAD</abbr> Contínua no <abbr title="Dispositivo Móvel de Coleta" class="small-caps">DMC</abbr>.
+				Quesito <span class="old-style-figures">121a</span> do questionário da <abbr title="Pesquisa Nacional por Amostra de Domicílios" class="small-caps">PNAD</abbr> Contínua no <abbr title="Dispositivo Móvel de Coleta" class="small-caps">DMC</abbr>.
 			</figcaption>
 		</figure>
 		<div class="col-xs-22 col-xs-offset-1 col-sm-18 col-sm-offset-3 col-md-14 col-md-offset-5 col-lg-10 col-lg-offset-7">
-			<p>Quando o morador declarar, no quesito anterior, que ele e/ou alguém no domicílio realizou tarefas de cuidados de moradores do próprio domicílio, será habilitado este quesito, que traz informações do quadro de moradores. O entrevistador vai selecionar aquele(s) que recebeu(ram) cuidados, do morador em questão, na semana de referência.</p>
+			<p>Este quesito visa identificar a realização de atividades de afazeres domésticos para parentes que não residiam no mesmo domicílio do entrevistado.</p>
+			<p>O entrevistador irá selecionar <strong>Sim</strong>, caso o morador tenha executado, para parente, alguma das atividades listadas no quesito anterior.</p>
+		</div>
+		<!-- Quesito 121a [fim] -->
+
+		<!-- Quesito 121b [inicio] -->
+		<div class="col-xs-22 col-xs-offset-1 col-sm-18 col-sm-offset-3 col-md-14 col-md-offset-5 col-lg-10 col-lg-offset-7">
+			<h2 class="survey">
+				<div class="survey-icon-container">
+					<?php echo getIcon('pnadc-survey') ?>
+				</div>
+				Quesito 121b
+			</h2>
+		</div>
+		<figure class="img-container">
+			<div class="col-xs-22 col-xs-offset-1 col-sm-10 col-sm-offset-3 col-md-8 col-md-offset-5 col-lg-6 col-lg-offset-7 gutter-sm-right">
+				<picture>
+					<source srcset="dist/img/modulo-outras-formas/md/outras--quesito121b.jpg" media="(min-width:600px)">
+					<source srcset="dist/img/modulo-outras-formas/sm/outras--quesito121b.jpg" media="(min-width:1px)">
+					<img class="image" src="dist/img/modulo-outras-formas/md/outras--quesito121b.jpg" alt="Quesito 121b contendo a pergunta 'Na semana de 11/04/2021 a 17/04/2021, qual foi o total de horas que dedicou às atividades de cuidados de pessoas e/ou afazeres domésticos?'">
+				</picture>
+			</div>
+			<figcaption class="col-xs-22 col-xs-offset-1 col-sm-5 col-sm-offset-0 col-md-3 col-lg-2 img-container__caption">
+				<div class="img-container__top-line"></div>
+				Quesito <span class="old-style-figures">121b</span> do questionário da <abbr title="Pesquisa Nacional por Amostra de Domicílios" class="small-caps">PNAD</abbr> Contínua no <abbr title="Dispositivo Móvel de Coleta" class="small-caps">DMC</abbr>.
+			</figcaption>
+		</figure>
+		<div class="col-xs-22 col-xs-offset-1 col-sm-18 col-sm-offset-3 col-md-14 col-md-offset-5 col-lg-10 col-lg-offset-7">
+			<p>Este quesito será habilitado apenas se for selecionado Sim para atividades de cuidado de pessoas e/ou afazeres domésticos. Nesta situação, o entrevistador vai solicitar ao morador que some as horas efetivamente dedicadas, na semana de referência, às <strong>atividades de cuidados de pessoas</strong> no domicílio ou de parentes e as <strong>atividades domésticas</strong> realizadas no próprio domicílio ou em domicílio de parente.</p>
 
 			<!-- Realce [inicio] -->
 			<aside class="pullquote">
-				<q>O entrevistador deve pronunciar com bastante clareza o nome constate logo abaixo da pergunta, no DMC, a fim de que a correta relação entre <strong>morador cuidador</strong> e <strong>morador cuidado</strong> seja efetuada.</q>
+				<q>As atividades de cuidado de pessoas e tarefas domésticas realizadas de forma simultânea devem ser contabilizadas uma única vez.</q>
 			</aside>
 			<!-- Realce [fim] -->
-		</div>
-		<!-- Quesito 117b [fim] -->
 
-		<!-- Quesito 119 [inicio] -->
-		<div class="col-xs-22 col-xs-offset-1 col-sm-18 col-sm-offset-3 col-md-14 col-md-offset-5 col-lg-10 col-lg-offset-7">
-			<h2 class="survey">
-				<div class="survey-icon-container">
-					<?php echo getIcon('pnadc-survey') ?>
+			<p>Imaginemos o exemplo de um morador que, na semana de referência, cuidou da organização do domicílio enquanto monitorava seu filho de seis anos, brincando. A atividade de monitoramento durou 3 horas e a de organização doméstica durou 1 hora. Nesse caso, o registro para o presente quesito será de 3 horas.</p>
+
+			<h5>Atividades simultâneas</h5>
+			<div class="tabela-atividades lining-figures">
+				<div>
+					<p class="label">Cuidado de pessoas</p>
+					<div class="barra azul" data-size="3"></div>
+					<p class="value">3 horas</p>
 				</div>
-				Quesito 119
-			</h2>
-		</div>
-		<figure class="img-container">
-			<div class="col-xs-22 col-xs-offset-1 col-sm-10 col-sm-offset-3 col-md-8 col-md-offset-5 col-lg-6 col-lg-offset-7 gutter-sm-right">
-				<picture>
-					<source srcset="dist/img/modulo-outras-formas/md/outras--quesito119.jpg" media="(min-width:600px)">
-					<source srcset="dist/img/modulo-outras-formas/sm/outras--quesito119.jpg" media="(min-width:1px)">
-					<img class="image" src="dist/img/modulo-outras-formas/md/outras--quesito119.jpg" alt="Quesito 119 contendo a pergunta 'Na semana de 11/04/2021 a 17/04/2021, cuidou de parentes que não moravam neste domicílio e que precisavam de cuidados (crianças, idosos, enfermos ou pessoas com necessidades especiais)?'">
-				</picture>
-			</div>
-			<figcaption class="col-xs-22 col-xs-offset-1 col-sm-5 col-sm-offset-0 col-md-3 col-lg-2 img-container__caption">
-				<div class="img-container__top-line"></div>
-				Quesito <span class="old-style-figures">119</span> do questionário da <abbr title="Pesquisa Nacional por Amostra de Domicílios" class="small-caps">PNAD</abbr> Contínua no <abbr title="Dispositivo Móvel de Coleta" class="small-caps">DMC</abbr>.
-			</figcaption>
-		</figure>
-		<div class="col-xs-22 col-xs-offset-1 col-sm-18 col-sm-offset-3 col-md-14 col-md-offset-5 col-lg-10 col-lg-offset-7">
-			<p>Este quesito visa identificar a realização de atividades de cuidado ao morador parente que não residia no mesmo domicílio, mesmo que o cuidado tenha sido realizado no próprio domicílio do entrevistado. Por exemplo, a avó que cuida do neto, sendo este morador de outro domicílio; filhos que monitoram a saúde da mãe idosa, moradora em outro domicílio etc.</p>
-			<p>O entrevistador irá selecionar <strong>Sim</strong> ou <strong>Não</strong>, conforme o caso. As orientações para o preenchimento são as mesmas já apresentadas no quesito 117a, que apresenta os tipos de tarefa de cuidados.</p>
-
-			<button class="btn modal_call" id="faq001">Tarefas de cuidados</button>
-			<!-- Janela modal [inicio] -->
-			<article class="modal" id="modal_faq001">
-				<header class="modal__header">
-					<h2 class="modal__heading-1">Tarefas de cuidados</h2>
-					<button class="btn modal__btn-close">Fechar</button>
-				</header>
-				<div class="row modal__content">
-					<div class="col-xs-24">
-						<h5>Auxiliar nos cuidados pessoais (alimentar, vestir, pentear, dar remédio, dar banho, colocar para dormir)</h5>
-						<p>O morador auxiliou nos cuidados pessoais (alimentou, vestiu, penteou, deu remédio, deu banho, colocou para dormir) de moradores do domicílio que eram crianças, idosos, enfermos ou pessoas com necessidades especiais. Além dos cuidados mencionados, podem ser considerados quaisquer outras atividades de apoio nos cuidados pessoais de outro(s) morador(es). Exemplo: trocar fralda; amamentar; levar ao banheiro; escovar os dentes; fazer a barba etc.</p>
-
-						<h5>Auxiliar em atividades educacionais</h5>
-						<p>O morador auxiliou em atividades educacionais de moradores do domicílio que eram crianças ou adolescentes, idosos ou pessoas com necessidades especiais. São consideradas atividades educacionais: orientar ou ajudar nos deveres e nas atividades escolares em geral, realizar atividades que incentivem o desenvolvimento cognitivo, visando facilitar o processo de aprendizado de crianças ou pessoas portadoras de necessidades especiais.</p>
-
-						<h5>Ler, jogar ou brincar</h5>
-						<p>O morador realizou atividades de leitura, jogos ou brincadeiras para moradores do domicílio que eram crianças, idosos, enfermos ou pessoas com necessidades especiais. São consideradas todas as atividades de recreação dentro ou fora do domicílio realizadas pela pessoa que cuida.</p>
-
-						<h5>Monitorar ou fazer companhia dentro do domicílio</h5>
-						<p>O morador monitorou ou fez companhia dentro do domicílio a moradores do domicílio que eram crianças, idosos, enfermos ou pessoas com necessidades especiais. São consideradas atividades de monitoramento e companhia: ficar atento para situações em que é necessária a participação da pessoa que está cuidando, observar uma criança enquanto brinca para não se acidentar, acompanhar se o idoso tomou todos os remédios de forma correta, ficar atento e disponível às necessidades de um enfermo ou idoso ao longo do dia etc.</p>
-
-						<h5>Transportar ou acompanhar para escola, médico, exames, parque, praça, atividades sociais, culturais, esportivas ou religiosas</h5>
-						<p>O morador transportou ou acompanhou para escola, médico, exame, parque, praça, atividades sociais, culturais, esportivas ou religiosas, moradores do domicílio que eram crianças, idosos, enfermos ou pessoas com necessidades especiais. Também são consideradas atividades de transporte ou acompanhamento levar o idoso a um baile, transportá-lo para a casa de amigos ou parentes, levar crianças para natação e outras atividades etc.</p>
-
-						<h5>Outras tarefas de cuidados de moradores</h5>
-						<p>O morador realizou outras tarefas de cuidados de moradores do domicílio: crianças, idosos, enfermos ou pessoas com necessidades especiais.</p>
+				<div>
+					<p class="label">Afazeres domésticos</p>
+					<div class="barra laranja" data-size="1"></div>
+					<p class="value">1 hora</p>
+				</div>
+				<div>
+					<p class="label">Registro no DMC</p>
+					<div class="barra" data-size="1">
+						<div class="barra azul" style="margin: 0; height: 10px;"></div>
+						<div class="barra laranja" style="margin: 0; height: 10px;"></div>
 					</div>
+					<div class="barra azul" data-size="2"></div>
+					<p class="value">3 horas</p>
 				</div>
-			</article>
-			<!-- Janela modal [fim] -->
+			</div>
 
-			<!-- Realce [inicio] -->
-			<aside class="pullquote">
-				<q>Não devem ser consideradas as pessoas não parentes que moram em outro domicílio e receberam cuidados, como por exemplo vizinhos e amigos. Neste caso, trata-se de trabalho voluntário e não de cuidado de pessoas.</q>
-			</aside>
-			<!-- Realce [fim] -->
+			<h5>Atividades não simultâneas</h5>
+
+			<div class="tabela-atividades lining-figures">
+				<div>
+					<p class="label">Cuidado de pessoas</p>
+					<div class="barra azul" data-size="3"></div>
+					<p class="value">3 horas</p>
+				</div>
+				<div>
+					<p class="label">Afazeres domésticos</p>
+					<div class="barra laranja" data-ident="3" data-size="1"></div>
+					<p class="value">1 hora</p>
+				</div>
+				<div>
+					<p class="label">Registro no DMC</p>
+					<div class="barra azul" data-size="3"></div>
+					<div class="barra laranja" data-size="1"></div>
+					<p class="value">4 horas</p>
+				</div>
+			</div>
+
 		</div>
-		<!-- Quesito 119 [fim] -->
+		<!-- Quesito 121b [fim] -->
 
+		<!-- Quesito 122 [inicio] -->
+		<div class="col-xs-22 col-xs-offset-1 col-sm-18 col-sm-offset-3 col-md-14 col-md-offset-5 col-lg-10 col-lg-offset-7">
+			<h2 class="survey">
+				<div class="survey-icon-container">
+					<?php echo getIcon('pnadc-survey') ?>
+				</div>
+				Quesito 122
+			</h2>
+		</div>
+		<figure class="img-container">
+			<div class="col-xs-22 col-xs-offset-1 col-sm-10 col-sm-offset-3 col-md-8 col-md-offset-5 col-lg-6 col-lg-offset-7 gutter-sm-right">
+				<picture>
+					<source srcset="dist/img/modulo-outras-formas/md/outras--quesito122.jpg" media="(min-width:600px)">
+					<source srcset="dist/img/modulo-outras-formas/sm/outras--quesito122.jpg" media="(min-width:1px)">
+					<img class="image" src="dist/img/modulo-outras-formas/md/outras--quesito122.jpg" alt="Quesito 122 contendo a pergunta 'Quem foi o informante da parte 4?'">
+				</picture>
+			</div>
+			<figcaption class="col-xs-22 col-xs-offset-1 col-sm-5 col-sm-offset-0 col-md-3 col-lg-2 img-container__caption">
+				<div class="img-container__top-line"></div>
+				Quesito <span class="old-style-figures">122</span> do questionário da <abbr title="Pesquisa Nacional por Amostra de Domicílios" class="small-caps">PNAD</abbr> Contínua no <abbr title="Dispositivo Móvel de Coleta" class="small-caps">DMC</abbr>.
+			</figcaption>
+		</figure>
+		<div class="col-xs-22 col-xs-offset-1 col-sm-18 col-sm-offset-3 col-md-14 col-md-offset-5 col-lg-10 col-lg-offset-7">
+			<p>Neste quesito o entrevistador deverá informar qual foi a pessoa que prestou as informações nas perguntas relativas às Outras formas de trabalho. Esta informação é extremamente importante, pois em uma eventual checagem de dados, podemos procurar diretamente a pessoa que, prestou as informações.</p>
+			<p>Por fim, assista o vídeo, a seguir, para compreender a dinâmica de funcionamento do DMC nos quesitos sobre as outras formas de trabalho:</p>
+			<!-- @TODO: Qual video incluir aqui? -->
+			<!-- Video incorporado (YouTube) [inicio] -->
+			<div class="video-wrapper">
+				<div class="video-wrapper__iframe video-wrapper__iframe--focusable" id="youtube-video--example01"></div>
+			</div>
+			<!-- Video incorporado (YouTube) [fim] -->
+		</div>
+		<!-- Quesito 122 [fim] -->
+
+		<button class="btn modal_call" id="faq001">PNAD Contínua na mídia</button>
+
+		<!-- Janela modal [inicio] -->
+		<article class="modal" id="modal_faq001">
+			<header class="modal__header">
+				<h2 class="modal__heading-1">PNAD Contínua na mídia</h2>
+				<button class="btn modal__btn-close">Fechar</button>
+			</header>
+			<div class="row modal__content">
+				<div class="col-xs-24">
+					<a href="https://www.terra.com.br/economia/mais-homens-fazem-tarefa-domestica-mas-mulheres-ainda-trabalham-o-dobro-em-casa-aponta-ibge,6ac3d772311f01c9626942c4111d2986vywy78l2.html">Mais homens fazem tarefa doméstica, mas mulheres ainda trabalham o dobro em casa, aponta IBGE</a>
+
+					<a href="https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/20912-mulheres-continuam-a-cuidar-mais-de-pessoas-e-afazeres-domesticos-que-homens">
+						Mulheres continuam a cuidar mais de pessoas e afazeres domésticos que homens
+					</a>
+
+					<a href="https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/18566-pnad-continua-2016-90-6-das-mulheres-e-74-1-dos-homens-realizaram-afazeres-domesticos-ou-cuidados-de-pessoas">
+						PNAD Contínua 2016: 90,6% das mulheres e 74,1% dos homens realizaram afazeres domésticos ou cuidados de pessoas
+					</a>
+
+					<a href="https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/24268-pais-tem-7-2-milhoes-de-pessoas-que-fazem-trabalho-voluntario">
+						País tem 7,2 milhões de pessoas que fazem trabalho voluntário
+					</a>
+					<a href="https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/27878-com-envelhecimento-cresce-numero-de-familiares-que-cuidam-de-idosos-no-pais">
+						Com envelhecimento, cresce número de familiares que cuidam de idosos no país
+					</a>
+				</div>
+			</div>
+		</article>
+		<!-- Janela modal [fim] -->
 	</div>
 </main>
 
