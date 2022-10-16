@@ -343,38 +343,46 @@ require "head.php";
 		</div>
 		<!-- Quesito 122 [fim] -->
 
-		<button class="btn modal_call" id="faq001">PNAD Contínua na mídia</button>
+		<div class="col-xs-22 col-xs-offset-1 col-sm-18 col-sm-offset-3 col-md-14 col-md-offset-5 col-lg-10 col-lg-offset-7">
+			<button class="btn modal_call" id="faq001">PNAD Contínua na mídia</button>
+		</div>
 
-		<!-- Janela modal [inicio] -->
-		<article class="modal" id="modal_faq001">
+	</div>
+</main>
+
+<!-- Janela modal [inicio] -->
+<article class="modal" id="modal_faq001">
 			<header class="modal__header">
 				<h2 class="modal__heading-1">PNAD Contínua na mídia</h2>
 				<button class="btn modal__btn-close">Fechar</button>
 			</header>
 			<div class="row modal__content">
 				<div class="col-xs-24">
-					<a href="https://www.terra.com.br/economia/mais-homens-fazem-tarefa-domestica-mas-mulheres-ainda-trabalham-o-dobro-em-casa-aponta-ibge,6ac3d772311f01c9626942c4111d2986vywy78l2.html">Mais homens fazem tarefa doméstica, mas mulheres ainda trabalham o dobro em casa, aponta IBGE</a>
+					<ul class="bulleted-list">
+						<li>
+							<a href="https://www.terra.com.br/economia/mais-homens-fazem-tarefa-domestica-mas-mulheres-ainda-trabalham-o-dobro-em-casa-aponta-ibge,6ac3d772311f01c9626942c4111d2986vywy78l2.html">
+								Mais homens fazem tarefa doméstica, mas mulheres ainda trabalham o dobro em casa, aponta IBGE
+							</a></li>
 
-					<a href="https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/20912-mulheres-continuam-a-cuidar-mais-de-pessoas-e-afazeres-domesticos-que-homens">
-						Mulheres continuam a cuidar mais de pessoas e afazeres domésticos que homens
-					</a>
+						<li><a href="https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/20912-mulheres-continuam-a-cuidar-mais-de-pessoas-e-afazeres-domesticos-que-homens">
+								Mulheres continuam a cuidar mais de pessoas e afazeres domésticos que homens
+							</a></li>
 
-					<a href="https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/18566-pnad-continua-2016-90-6-das-mulheres-e-74-1-dos-homens-realizaram-afazeres-domesticos-ou-cuidados-de-pessoas">
-						PNAD Contínua 2016: 90,6% das mulheres e 74,1% dos homens realizaram afazeres domésticos ou cuidados de pessoas
-					</a>
+						<li><a href="https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/18566-pnad-continua-2016-90-6-das-mulheres-e-74-1-dos-homens-realizaram-afazeres-domesticos-ou-cuidados-de-pessoas">
+								PNAD Contínua 2016: 90,6% das mulheres e 74,1% dos homens realizaram afazeres domésticos ou cuidados de pessoas
+							</a></li>
 
-					<a href="https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/24268-pais-tem-7-2-milhoes-de-pessoas-que-fazem-trabalho-voluntario">
-						País tem 7,2 milhões de pessoas que fazem trabalho voluntário
-					</a>
-					<a href="https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/27878-com-envelhecimento-cresce-numero-de-familiares-que-cuidam-de-idosos-no-pais">
-						Com envelhecimento, cresce número de familiares que cuidam de idosos no país
-					</a>
+						<li><a href="https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/24268-pais-tem-7-2-milhoes-de-pessoas-que-fazem-trabalho-voluntario">
+								País tem 7,2 milhões de pessoas que fazem trabalho voluntário
+							</a></li>
+						<li><a href="https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/27878-com-envelhecimento-cresce-numero-de-familiares-que-cuidam-de-idosos-no-pais">
+								Com envelhecimento, cresce número de familiares que cuidam de idosos no país
+							</a></li>
+					</ul>
 				</div>
 			</div>
 		</article>
 		<!-- Janela modal [fim] -->
-	</div>
-</main>
 
 <?php include "foot.php"; ?>
 
