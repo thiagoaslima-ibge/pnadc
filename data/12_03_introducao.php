@@ -39,26 +39,70 @@ include "head.php";
 		<!-- Conteudo da pagina [inicio] -->
 		<div class="col-xs-22 col-xs-offset-1 col-sm-18 col-sm-offset-3 col-md-14 col-md-offset-5 col-lg-10 col-lg-offset-7">
 			<p>Observe as reportagens a seguir:</p>
+		</div>
 
-			<ul>
-				<li>
-					Mulheres dedicam a afazeres domésticos o dobro de horas dos homens
-					Agência Brasil, 26/04/2019
-				</li>
-				<li>
-					IBGE: 10 milhões de brasileiros cultivam e pescam para próprio consumo
-					Valor econômico, 04/06/2020
-				</li>
-				<li>
-					País tem 7,2 milhões de pessoas que fazem trabalho voluntário
-					Agência IBGE Notícias, 26/04/2019
-				</li>
-				<li>
-					Segundo o IBGE, cresce número de familiares que cuidam de idosos no Brasil
-					Tudorondonia.com, 07/06/2020
-				</li>
-			</ul>
+		<!-- Mosaico [inicio] -->
+		<ul class="row photo-mosaic">
+			<li class="col-xs-12 col-md-12">
+				<figure class="photo-mosaic__img-container">
+					<picture>
+						<img class="image" src="dist/img/un12-agencia-brasil.png" alt="">
+					</picture>
+					<figcaption class="photo-mosaic__img-caption">
+						<p>
+							Mulheres dedicam a afazeres domésticos o dobro de horas dos homens
+							<br />
+							<a href="https://agenciabrasil.ebc.com.br/geral/noticia/2019-04/mulher-dedica-o-dobro-de-horas-para-afazeres-domesticos-que-o-homem">Agência Brasil</a>, 26/04/2019
+						</p>
+					</figcaption>
+				</figure>
+			</li>
+			<li class="col-xs-12 col-md-12">
+				<figure class="photo-mosaic__img-container">
+					<picture>
+						<img class="image" src="dist/img/un12-valor-economico.png" alt="">
+					</picture>
+					<figcaption class="photo-mosaic__img-caption">
+						<p>
+							IBGE: 10 milhões de brasileiros cultivam e pescam para próprio consumo
+							<br>
+							<a href="https://valor.globo.com/brasil/noticia/2020/06/04/ibge-10-milhes-de-brasileiros-cultivam-e-pescam-para-prprio-consumo.ghtml">Valor econômico</a>, 04/06/2020
+						</p>
+					</figcaption>
+				</figure>
+			</li>
+			<li class="col-xs-12 col-md-12">
+				<figure class="photo-mosaic__img-container">
+					<picture>
+						<img class="image" src="dist/img/un12-agencia-ibge-noticias.png" alt="">
+					</picture>
+					<figcaption class="photo-mosaic__img-caption">
+						<p>
+							País tem 7,2 milhões de pessoas que fazem trabalho voluntário
+							<br>
+							<a href="https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/24268-pais-tem-7-2-milhoes-de-pessoas-que-fazem-trabalho-voluntario">Agência IBGE Notícias</a>, 26/04/2019
+						</p>
+					</figcaption>
+				</figure>
+			</li>
+			<li class="col-xs-12 col-md-12">
+				<figure class="photo-mosaic__img-container">
+					<picture>
+						<img class="image" src="dist/img/un12-tudorondonia.png" alt="">
+					</picture>
+					<figcaption class="photo-mosaic__img-caption">
+						<p>
+							Segundo o IBGE, cresce número de familiares que cuidam de idosos no Brasil
+							<br>
+							<a href="https://www.tudorondonia.com/noticias/segundo-o-ibge-cresce-numero-de-familiares-que-cuidam-de-idosos-no-brasil,50473.shtml">Tudorondonia.com, 07/06/2020</a>
+						</p>
+					</figcaption>
+				</figure>
+			</li>
+		</ul>
+		<!-- Mosaico [fim] -->
 
+		<div class="col-xs-22 col-xs-offset-1 col-sm-18 col-sm-offset-3 col-md-14 col-md-offset-5 col-lg-10 col-lg-offset-7">
 			<p>O que estas reportagens possuem em comum, além de terem sido elaboradas com base em dados da <abbr title="Pesquisa Nacional por Amostra de Domicílios" class="small-caps">PNAD</abbr> Contínua, é o fato de abordarem o chamado “trabalho invisível”, aquele que não é remunerado, que não se precifica nem conta como ocupação, mas é de extrema importância para entender as relações sociais bem como o impacto da demografia, da economia e das políticas públicas na dinâmica de funcionamento da sociedade. É o que chamamos, no IBGE de <strong>Outras formas de trabalho</strong>.
 
 				<!-- Realce [inicio] -->

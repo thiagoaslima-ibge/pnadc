@@ -29,8 +29,8 @@
 		<script src="dist/js/nav.min.js"></script>
 	</head>
 
-	<!-- <body class="curso-estatistica cover--example" onload="iniciaNavegacao()" onunload="encerraNavegacao()" onbeforeunload="encerraNavegacao()" style="padding:0;"> -->
-	<body class="curso-estatistica cover--example" onunload="encerraNavegacao()" onbeforeunload="encerraNavegacao()" style="padding:0;">
+	<body class="curso-estatistica cover--example" onload="iniciaNavegacao()" onunload="encerraNavegacao()" onbeforeunload="encerraNavegacao()" style="padding:0;">
+	<!-- <body class="curso-estatistica cover--example" onunload="encerraNavegacao()" onbeforeunload="encerraNavegacao()" style="padding:0;"> -->
 		<!--[if lt IE 7]>
 			<p class="obsoletebrowser">Você está usando um navegador de internet obsoleto. Por favor atualize para uma melhor experiência.</p>
 		<![endif]-->
@@ -76,7 +76,7 @@
 				</ul>
 			</div>
 			<div class="col-xs-22 col-sm-8 col-md-10 col-lg-10 cover-footer__cta">
-				<a href="pagina__guia-de-estudos.php" title="Selecione para começar">Começar!</a>
+				<a href="12_02_guia_de_estudos.php" title="Selecione para começar">Começar!</a>
 			</div>
 		</footer>
 
