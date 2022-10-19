@@ -15,6 +15,12 @@ require "head.php";
 		vertical-align: middle;
 		margin-right: 0.63rem;
 	}
+
+	.survey-icon-container img {
+		/* https://codepen.io/sosuke/pen/Pjoqqp */
+		-webkit-filter: invert(41%) sepia(10%) saturate(4109%) hue-rotate(181deg) brightness(90%) contrast(77%);
+		filter: invert(41%) sepia(10%) saturate(4109%) hue-rotate(181deg) brightness(90%) contrast(77%);
+	}
 </style>
 
 <main class="page-content okgo">
@@ -58,7 +64,7 @@ require "head.php";
 		<div class="col-xs-22 col-xs-offset-1 col-sm-18 col-sm-offset-3 col-md-14 col-md-offset-5 col-lg-10 col-lg-offset-7">
 			<h2 class="survey">
 				<div class="survey-icon-container">
-					<?php echo getIcon('pnadc-survey') ?>
+					<img src="dist/img/pnad-survey-icon.svg" />
 				</div>
 				Quesito 117a
 			</h2>
@@ -112,7 +118,7 @@ require "head.php";
 		<div class="col-xs-22 col-xs-offset-1 col-sm-18 col-sm-offset-3 col-md-14 col-md-offset-5 col-lg-10 col-lg-offset-7">
 			<h2 class="survey">
 				<div class="survey-icon-container">
-					<?php echo getIcon('pnadc-survey') ?>
+					<img src="dist/img/pnad-survey-icon.svg" />
 				</div>
 				Quesito 117b
 			</h2>
@@ -145,7 +151,7 @@ require "head.php";
 		<div class="col-xs-22 col-xs-offset-1 col-sm-18 col-sm-offset-3 col-md-14 col-md-offset-5 col-lg-10 col-lg-offset-7">
 			<h2 class="survey">
 				<div class="survey-icon-container">
-					<?php echo getIcon('pnadc-survey') ?>
+					<img src="dist/img/pnad-survey-icon.svg" />
 				</div>
 				Quesito 119
 			</h2>

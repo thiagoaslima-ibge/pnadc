@@ -1,6 +1,5 @@
 <?php 
   $nomeCurso = "Pesquisa Nacional por Amostra de Domicílios Contínua";
-  require_once './imports/icons.php'; 
 ?>
 
 <!DOCTYPE html>
