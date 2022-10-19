@@ -174,7 +174,7 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+#dist
 
 # Gatsby files
 .cache/
@@ -216,7 +216,7 @@ dist
 ### MEAN.Anglar Stack ###
 ## Angular ##
 # compiled output
-dist/
+#dist/
 tmp/
 app/**/*.js
 app/**/*.js.map
