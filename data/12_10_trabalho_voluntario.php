@@ -259,9 +259,7 @@ require "head.php";
 			<div class="col-xs-22 col-xs-offset-1 col-sm-10 col-sm-offset-3 col-md-8 col-md-offset-5 col-lg-6 col-lg-offset-7 gutter-sm-right">
 				<!-- TODO: Solicitar imagem final do quesito 113 -->
 				<picture>
-					<source srcset="dist/img/modulo-outras-formas/md/outras--quesito113.jpg" media="(min-width:600px)">
-					<source srcset="dist/img/modulo-outras-formas/sm/outras--quesito113.jpg" media="(min-width:1px)">
-					<img class="image" src="dist/img/modulo-outras-formas/md/outras--quesito113.jpg" alt="Quesito 113 contendo a pergunta 'Na semana de 11/04/2021 a 17/04/2021, quantas horas trabalhou voluntariamente e sem remuneração'">
+					<img class="image" src="dist/img/modulo-outras-formas/sm/outras--quesito113.jpg" alt="Quesito 113 contendo a pergunta 'Na semana de 11/04/2021 a 17/04/2021, quantas horas trabalhou voluntariamente e sem remuneração'">
 				</picture>
 			</div>
 			<figcaption class="col-xs-22 col-xs-offset-1 col-sm-5 col-sm-offset-0 col-md-3 col-lg-2 img-container__caption">
@@ -355,11 +353,8 @@ require "head.php";
 		</div>
 		<figure class="img-container">
 			<div class="col-xs-22 col-xs-offset-1 col-sm-10 col-sm-offset-3 col-md-8 col-md-offset-5 col-lg-6 col-lg-offset-7 gutter-sm-right">
-				<!-- TODO: Solicitar imagem final do quesito 115 -->
 				<picture>
-					<source srcset="dist/img/modulo-outras-formas/md/outras--quesito115.jpg" media="(min-width:600px)">
-					<source srcset="dist/img/modulo-outras-formas/sm/outras--quesito115.jpg" media="(min-width:1px)">
-					<img class="image" src="dist/img/modulo-outras-formas/md/outras--quesito115.jpg" alt="Quesito 115 contendo a pergunta 'Na semana de 11/04/2021 a 17/04/2021, quantas horas trabalhou voluntariamente e sem remuneração'">
+					<img class="image" src="dist/img/modulo-outras-formas/sm/outras--quesito115.jpg" alt="Quesito 115 contendo a pergunta 'Na semana de 11/04/2021 a 17/04/2021, quantas horas trabalhou voluntariamente e sem remuneração'">
 				</picture>
 			</div>
 			<figcaption class="col-xs-22 col-xs-offset-1 col-sm-5 col-sm-offset-0 col-md-3 col-lg-2 img-container__caption">

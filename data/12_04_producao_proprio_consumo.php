@@ -181,9 +181,7 @@ require "head.php";
 		<figure class="img-container">
 			<div class="col-xs-22 col-xs-offset-1 col-sm-10 col-sm-offset-3 col-md-8 col-md-offset-5 col-lg-6 col-lg-offset-7 gutter-sm-right">
 				<picture>
-					<source srcset="dist/img/modulo-outras-formas/md/outras--quesito101.jpg" media="(min-width:600px)">
-					<source srcset="dist/img/modulo-outras-formas/sm/outras--quesito101.jpg" media="(min-width:1px)">
-					<img class="image" src="dist/img/modulo-outras-formas/md/outras--quesito101.jpg" alt="Quesito 101">
+					<img class="image" src="dist/img/modulo-outras-formas/sm/outras--quesito101.jpg" alt="Quesito 101">
 				</picture>
 			</div>
 			<figcaption class="col-xs-22 col-xs-offset-1 col-sm-5 col-sm-offset-0 col-md-3 col-lg-2 img-container__caption">
@@ -296,9 +294,7 @@ require "head.php";
 		<figure class="img-container">
 			<div class="col-xs-22 col-xs-offset-1 col-sm-10 col-sm-offset-3 col-md-8 col-md-offset-5 col-lg-6 col-lg-offset-7 gutter-sm-right">
 				<picture>
-					<source srcset="dist/img/modulo-outras-formas/md/outras--quesito104.jpg" media="(min-width:600px)">
-					<source srcset="dist/img/modulo-outras-formas/sm/outras--quesito104.jpg" media="(min-width:1px)">
-					<img class="image" src="dist/img/modulo-outras-formas/md/outras--quesito104.jpg" alt="Quesito 104 contendo a pergunta 'Na semana de 11/04/2021 a 17/04/2021, quantas horas dedicou efetivamente a todas essas atividades?'">
+					<img class="image" src="dist/img/modulo-outras-formas/sm/outras--quesito104.jpg" alt="Quesito 104 contendo a pergunta 'Na semana de 11/04/2021 a 17/04/2021, quantas horas dedicou efetivamente a todas essas atividades?'">
 				</picture>
 			</div>
 			<figcaption class="col-xs-22 col-xs-offset-1 col-sm-5 col-sm-offset-0 col-md-3 col-lg-2 img-container__caption">
@@ -438,9 +434,7 @@ require "head.php";
 		<figure class="img-container">
 			<div class="col-xs-22 col-xs-offset-1 col-sm-10 col-sm-offset-3 col-md-8 col-md-offset-5 col-lg-6 col-lg-offset-7 gutter-sm-right">
 				<picture>
-					<source srcset="dist/img/modulo-outras-formas/md/outras--quesito107.jpg" media="(min-width:600px)">
-					<source srcset="dist/img/modulo-outras-formas/sm/outras--quesito107.jpg" media="(min-width:1px)">
-					<img class="image" src="dist/img/modulo-outras-formas/md/outras--quesito107.jpg" alt="Quesito 107 contendo a pergunta 'Na semana de 11/04/2021 a 17/04/2021, quantas horas dedicou efetivamente a essas atividades?'">
+					<img class="image" src="dist/img/modulo-outras-formas/sm/outras--quesito107.jpg" alt="Quesito 107 contendo a pergunta 'Na semana de 11/04/2021 a 17/04/2021, quantas horas dedicou efetivamente a essas atividades?'">
 				</picture>
 			</div>
 			<figcaption class="col-xs-22 col-xs-offset-1 col-sm-5 col-sm-offset-0 col-md-3 col-lg-2 img-container__caption">
@@ -554,9 +548,7 @@ require "head.php";
 		<figure class="img-container">
 			<div class="col-xs-22 col-xs-offset-1 col-sm-10 col-sm-offset-3 col-md-8 col-md-offset-5 col-lg-6 col-lg-offset-7 gutter-sm-right">
 				<picture>
-					<source srcset="dist/img/modulo-outras-formas/md/outras--quesito110.jpg" media="(min-width:600px)">
-					<source srcset="dist/img/modulo-outras-formas/sm/outras--quesito110.jpg" media="(min-width:1px)">
-					<img class="image" src="dist/img/modulo-outras-formas/md/outras--quesito110.jpg" alt="Quesito 110 contendo a pergunta 'Na semana de 11/04/2021 a 17/04/2021, exerceu atividades de construção de casa, cômodo, muro, telhado, forno ou churrasqueira, cerca, estrada, abrigo para animais ou outras obras destinadas somente ao próprio uso das pessoas moradoras do domicílio ou de parente?'">
+					<img class="image" src="dist/img/modulo-outras-formas/sm/outras--quesito110.jpg" alt="Quesito 110 contendo a pergunta 'Na semana de 11/04/2021 a 17/04/2021, exerceu atividades de construção de casa, cômodo, muro, telhado, forno ou churrasqueira, cerca, estrada, abrigo para animais ou outras obras destinadas somente ao próprio uso das pessoas moradoras do domicílio ou de parente?'">
 				</picture>
 			</div>
 			<figcaption class="col-xs-22 col-xs-offset-1 col-sm-5 col-sm-offset-0 col-md-3 col-lg-2 img-container__caption">
