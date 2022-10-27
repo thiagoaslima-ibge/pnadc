@@ -18,6 +18,16 @@ include "head.php";
 		background-color: #87dc00;
 		border-bottom-color: #138500;
 	}
+
+	.photo-mosaic__img-caption {
+		cursor: pointer;
+		display: flex;
+    place-items: center;
+    justify-content: center;
+	}
+	.photo-mosaic__img-caption > p {
+		max-width: 50ch;
+	}
 </style>
 
 <main class="page-content okgo">
@@ -46,12 +56,11 @@ include "head.php";
 			<li class="col-xs-12 col-md-12">
 				<figure class="photo-mosaic__img-container">
 					<picture>
-						<img class="image" src="dist/img/un12-agencia-brasil.png" alt="">
+						<img class="image" style="aspect-ratio: 720 / 415" src="dist/img/un12-agencia-brasil.png" alt="">
 					</picture>
 					<figcaption class="photo-mosaic__img-caption">
 						<p>
-							Mulheres dedicam a afazeres domésticos o dobro de horas dos homens
-							<br />
+							Mulheres dedicam a afazeres domésticos o dobro de horas dos homens.
 							<a href="https://agenciabrasil.ebc.com.br/geral/noticia/2019-04/mulher-dedica-o-dobro-de-horas-para-afazeres-domesticos-que-o-homem">Agência Brasil</a>, 26/04/2019
 						</p>
 					</figcaption>
@@ -60,13 +69,14 @@ include "head.php";
 			<li class="col-xs-12 col-md-12">
 				<figure class="photo-mosaic__img-container">
 					<picture>
-						<img class="image" src="dist/img/un12-valor-economico.png" alt="">
+						<a class="block" href="https://www.agazeta.com.br/es/economia/201-mil-profissionais-no-es-trabalham-para-o-consumo-proprio-0620">
+							<img class="image" style="aspect-ratio: 720 / 415" src="dist/img/un12-gazeta.png" alt="">
+						</a>
 					</picture>
 					<figcaption class="photo-mosaic__img-caption">
 						<p>
-							IBGE: 10 milhões de brasileiros cultivam e pescam para próprio consumo
-							<br>
-							<a href="https://valor.globo.com/brasil/noticia/2020/06/04/ibge-10-milhes-de-brasileiros-cultivam-e-pescam-para-prprio-consumo.ghtml">Valor econômico</a>, 04/06/2020
+							201 mil profissionais no ES trabalham para o consumo próprio.  
+							<a href="https://www.agazeta.com.br/es/economia/201-mil-profissionais-no-es-trabalham-para-o-consumo-proprio-0620">Valor econômico</a>, 04/06/2020
 						</p>
 					</figcaption>
 				</figure>
@@ -74,12 +84,11 @@ include "head.php";
 			<li class="col-xs-12 col-md-12">
 				<figure class="photo-mosaic__img-container">
 					<picture>
-						<img class="image" src="dist/img/un12-agencia-ibge-noticias.png" alt="">
+						<img class="image" style="aspect-ratio: 720 / 415" src="dist/img/un12-agencia-ibge-noticias.png" alt="">
 					</picture>
 					<figcaption class="photo-mosaic__img-caption">
 						<p>
-							País tem 7,2 milhões de pessoas que fazem trabalho voluntário
-							<br>
+							País tem 7,2 milhões de pessoas que fazem trabalho voluntário.
 							<a href="https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/24268-pais-tem-7-2-milhoes-de-pessoas-que-fazem-trabalho-voluntario">Agência IBGE Notícias</a>, 26/04/2019
 						</p>
 					</figcaption>
@@ -88,12 +97,11 @@ include "head.php";
 			<li class="col-xs-12 col-md-12">
 				<figure class="photo-mosaic__img-container">
 					<picture>
-						<img class="image" src="dist/img/un12-tudorondonia.png" alt="">
+						<img class="image" style="aspect-ratio: 720 / 415" src="dist/img/un12-tudorondonia.png" alt="">
 					</picture>
 					<figcaption class="photo-mosaic__img-caption">
 						<p>
-							Segundo o IBGE, cresce número de familiares que cuidam de idosos no Brasil
-							<br>
+							Segundo o IBGE, cresce número de familiares que cuidam de idosos no Brasil.
 							<a href="https://www.tudorondonia.com/noticias/segundo-o-ibge-cresce-numero-de-familiares-que-cuidam-de-idosos-no-brasil,50473.shtml">Tudorondonia.com, 07/06/2020</a>
 						</p>
 					</figcaption>

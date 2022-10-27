@@ -55,11 +55,6 @@ require "head.php";
 			<p>Vejamos, a seguir, os quesitos sobre cuidados de pessoas:</p>
 		</div>
 
-		<div class="col-xs-22 col-xs-offset-1 col-sm-18 col-sm-offset-3 col-md-14 col-md-offset-5 col-lg-10 col-lg-offset-7">
-			<h2>Atividades de cultivo, pesca ou criação de animais</h2>
-			<p>A primeira seção do questionário sobre produção para o próprio consumo é composta de três quesitos que visam identificar e qualificar as atividades em cultivo, pesca ou criação de animais. Vejamos, a seguir:</p>
-		</div>
-
 		<!-- Quesito 117a [inicio] -->
 		<div class="col-xs-22 col-xs-offset-1 col-sm-18 col-sm-offset-3 col-md-14 col-md-offset-5 col-lg-10 col-lg-offset-7">
 			<h2 class="survey">
@@ -141,7 +136,7 @@ require "head.php";
 
 			<!-- Realce [inicio] -->
 			<aside class="pullquote">
-				<q>O entrevistador deve pronunciar com bastante clareza o nome constate logo abaixo da pergunta, no DMC, a fim de que a correta relação entre <strong>morador cuidador</strong> e <strong>morador cuidado</strong> seja efetuada.</q>
+				<q>O entrevistador deve pronunciar com bastante clareza o nome que consta logo abaixo da pergunta, no DMC, a fim de que a correta relação entre <strong>morador cuidador</strong> e <strong>morador cuidado</strong> seja efetuada.</q>
 			</aside>
 			<!-- Realce [fim] -->
 		</div>

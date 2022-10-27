@@ -8,7 +8,7 @@
 
 <script>	
 	var exerciseCompletion = 0;
-	var feedback01 = {
+	var feedback03 = {
     type: "multiple-choice",
     correctValue: "3",
     hitFeedback: '<b>Parabéns!</b> Você selecionou a opção correta. Para ser considerado produção para o próprio consumo, o produto ou serviço deve ser somente para consumo de membro(s) do domicílio ou de parente(s) que residiam em outro domicílio. Além disso, as atividades realizadas mediante venda ou troca de produtos ou serviços não são deverão ser consideradas.',
@@ -35,7 +35,7 @@
 		<div class="col-xs-22 col-xs-offset-1 col-sm-18 col-sm-offset-3 col-md-14 col-md-offset-5 col-lg-10 col-lg-offset-7">
 
 			<!-- MULTIPLA ESCOLHA -->
-			<form id="exercise02">
+			<form id="exercise03">
         <p>Pode ser considerada como produção para o próprio consumo:</p>
 				<label class="col-xs-22 col-xs-offset-2 col-sm-24 col-sm-offset-0 multiple-choice__label" for="multiplechoice02_opt01" title="Selecione para escolher a opção 1.">					
 					<input id="multiplechoice02_opt01" name="multiplechoice02" type="radio" value="1">

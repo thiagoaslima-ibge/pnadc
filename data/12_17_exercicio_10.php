@@ -36,7 +36,7 @@
 
 			<!-- MULTIPLA ESCOLHA -->
 			<form id="exercise01">
-        <p>Sobre os afazeres domésticos, marque a alternativa incorreta, de acordo com os quesitos e conceitos da PNAD Contínua::</p>
+        <p>Sobre os afazeres domésticos, marque a alternativa incorreta, de acordo com os quesitos e conceitos da PNAD Contínua:</p>
 				<label class="col-xs-22 col-xs-offset-2 col-sm-24 col-sm-offset-0 multiple-choice__label" for="multiplechoice01_opt01" title="Selecione para escolher a opção 1.">					
 					<input id="multiplechoice01_opt01" name="multiplechoice01" type="radio" value="1">
 					Os afazeres domésticos são as atividades realizadas em benefício próprio e dos moradores, sem envolver qualquer tipo de remuneração em dinheiro, produtos ou mercadorias.

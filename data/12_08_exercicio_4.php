@@ -8,7 +8,7 @@
 
 <script>	
 	var exerciseCompletion = 0;
-	var feedback01 = {
+	var feedback04 = {
     type: "true-or-false",
     correctAnswer: [0,1,1,0],
 		missFeedback: [
@@ -39,46 +39,46 @@
 		<div class="col-xs-22 col-xs-offset-1 col-sm-18 col-sm-offset-3 col-md-14 col-md-offset-5 col-lg-10 col-lg-offset-7">
 
 			<!-- VERDADEIRO OU FALSO -->
-			<form class="true-or-false" id="exercise03">
+			<form class="true-or-false" id="exercise04">
 				<p>Com base nos conceitos e quesitos sobre as <strong>Outras formas de trabalho</strong>, na PNAD Contínua, classifique cada afirmativa como <strong>verdadeira</strong> ou <strong>falsa.</strong></p>
-				<p class="row true-or-false__item" id="exercise03-01">
+				<p class="row true-or-false__item" id="exercise04-01">
 					<span class="col-xs-22 col-xs-offset-1 col-sm-5 col-sm-offset-0">						
-						<button class="btn true-or-false__btn-answer" id="exercise03-01__0" type="button" title="Verdadeiro">V</button>
-						<button class="btn true-or-false__btn-answer" id="exercise03-01__1" type="button" title="Falso">F</button>							
+						<button class="btn true-or-false__btn-answer" id="exercise04-01__0" type="button" title="Verdadeiro">V</button>
+						<button class="btn true-or-false__btn-answer" id="exercise04-01__1" type="button" title="Falso">F</button>							
 					</span>
 					<span class="col-xs-22 col-xs-offset-1 col-sm-19 col-sm-offset-0">
 						<span>Sérgio trabalha como apicultor, por conta própria, e cria abelhas para a produção de mel. Neste caso, a produção de mel para o consumo da sua unidade domiciliar não pode ser registrada, pelo entrevistador, como outra forma de trabalho.</span>
-						<span class="exercise__feedback true-or-false__exercise-feedback" id="exercise03-01__comment"></span>
+						<span class="exercise__feedback true-or-false__exercise-feedback" id="exercise04-01__comment"></span>
 					</span>
 				</p>
-				<p class="row true-or-false__item" id="exercise03-02">
+				<p class="row true-or-false__item" id="exercise04-02">
 					<span class="col-xs-22 col-xs-offset-1 col-sm-5 col-sm-offset-0">						
-						<button class="btn true-or-false__btn-answer" id="exercise03-02__0" type="button" title="Verdadeiro">V</button>
-						<button class="btn true-or-false__btn-answer" id="exercise03-02__1" type="button" title="Falso">F</button>							
+						<button class="btn true-or-false__btn-answer" id="exercise04-02__0" type="button" title="Verdadeiro">V</button>
+						<button class="btn true-or-false__btn-answer" id="exercise04-02__1" type="button" title="Falso">F</button>							
 					</span>
 					<span class="col-xs-22 col-xs-offset-1 col-sm-19 col-sm-offset-0">
 						<span>Ao se registrar a quantidade de horas que o morador dedicou, na semana de referência, às atividades de cultivo, pesca, caça ou criação de animais destinados somente à alimentação das pessoas moradoras do domicílio ou de parente, não devem ser consideradas as horas dedicadas à preparação ou à manutenção de ferramentas ou instrumentos necessários à realização desse trabalho.</span>
-						<span class="exercise__feedback true-or-false__exercise-feedback" id="exercise03-02__comment"></span>
+						<span class="exercise__feedback true-or-false__exercise-feedback" id="exercise04-02__comment"></span>
 					</span>
 				</p>
-				<p class="row true-or-false__item" id="exercise03-03">
+				<p class="row true-or-false__item" id="exercise04-03">
 					<span class="col-xs-22 col-xs-offset-1 col-sm-5 col-sm-offset-0">						
-						<button class="btn true-or-false__btn-answer" id="exercise03-03__0" type="button" title="Verdadeiro">V</button>
-						<button class="btn true-or-false__btn-answer" id="exercise03-03__1" type="button" title="Falso">F</button>							
+						<button class="btn true-or-false__btn-answer" id="exercise04-03__0" type="button" title="Verdadeiro">V</button>
+						<button class="btn true-or-false__btn-answer" id="exercise04-03__1" type="button" title="Falso">F</button>							
 					</span>
 					<span class="col-xs-22 col-xs-offset-1 col-sm-19 col-sm-offset-0">
 						<span>As atividades de decoração destinadas unicamente à conservação do domicílio devem ser consideradas como produção para o próprio consumo, do tipo reparo e construção.</span>
-						<span class="exercise__feedback true-or-false__exercise-feedback" id="exercise03-03__comment"></span>
+						<span class="exercise__feedback true-or-false__exercise-feedback" id="exercise04-03__comment"></span>
 					</span>
 				</p>
-				<p class="row true-or-false__item" id="exercise03-03">
+				<p class="row true-or-false__item" id="exercise04-03">
 					<span class="col-xs-22 col-xs-offset-1 col-sm-5 col-sm-offset-0">						
-						<button class="btn true-or-false__btn-answer" id="exercise03-03__0" type="button" title="Verdadeiro">V</button>
-						<button class="btn true-or-false__btn-answer" id="exercise03-03__1" type="button" title="Falso">F</button>							
+						<button class="btn true-or-false__btn-answer" id="exercise04-03__0" type="button" title="Verdadeiro">V</button>
+						<button class="btn true-or-false__btn-answer" id="exercise04-03__1" type="button" title="Falso">F</button>							
 					</span>
 					<span class="col-xs-22 col-xs-offset-1 col-sm-19 col-sm-offset-0">
 						<span>Ao se registrar a quantidade de horas que o morador dedicou, na semana de referência, às atividades de coleta e de transformação de produtos minerais ou florestais, destinados ao uso das pessoas moradoras do domicílio ou de parente, não deve ser considerado o tempo de deslocamento para o início dessas atividades.</span>
-						<span class="exercise__feedback true-or-false__exercise-feedback" id="exercise03-03__comment"></span>
+						<span class="exercise__feedback true-or-false__exercise-feedback" id="exercise04-03__comment"></span>
 					</span>
 				</p>
 				<div class="row">

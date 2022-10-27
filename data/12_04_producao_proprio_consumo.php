@@ -140,7 +140,7 @@ require "head.php";
 		<!-- Destaque [inicio] -->
 		<section class="feature feature--example">
 			<div class="col-xs-22 col-xs-offset-1 col-sm-18 col-sm-offset-3 col-md-14 col-md-offset-5 col-lg-10 col-lg-offset-7">
-				<p>Tratando-se de trabalhadores <span style="text-decoration: underline;">conta própria</span> e <span style="text-decoration: underline;">empregadores</span>, a atividade de produção para o próprio consumo não pode ser a mesma do seu trabalho remunerado.</p>
+				<p>Tratando-se de trabalhadores <span style="font-weight: 900">conta própria</span> e <span style="font-weight: 900">empregadores</span>, a atividade de produção para o próprio consumo não pode ser a mesma do seu trabalho remunerado.</p>
 			</div>
 		</section>
 		<!-- Destaque [fim] -->
@@ -205,7 +205,7 @@ require "head.php";
 				<li>pesca;</li>
 				<li>cultivo de feijão;</li>
 				<li>criação de suínos;</li>
-				<li>cultivo de mandioca;</li>
+				<li>cultivo de mandioca.</li>
 			</ul>
 			<!-- Lista não ordenada [fim] -->
 		</div>
@@ -250,7 +250,6 @@ require "head.php";
 			</ul>
 			<!-- Lista não ordenada [fim] -->
 			<p>Destacamos que nas atividades de coleta ou extração de água da natureza (rio, lago ou açude) não está incluída a coleta de água de poço, bica ou de caminhão pipa/caminhão-tanque, pois enquadram-se em afazeres domésticos.</p>
-			<p>Para fins de preenchimento deste quesito, a produção, a extração ou a coleta deve ser destinada somente para uso de membro(s) da unidade domiciliar ou de parente(s) que residiam em outro domicílio.</p>
 			<!-- Realce [inicio] -->
 			<aside class="pullquote">
 				<q>O entrevistador deve se certificar, junto ao morador, de que a produção, a extração ou a coleta <strong>não eram para venda ou troca</strong>.</q>
@@ -504,11 +503,6 @@ require "head.php";
 			</ul>
 			<!-- Lista não ordenada [fim] -->
 			<p>Para fins de preenchimento deste quesito, a construção deve ser destinada somente para uso de membro(s) da unidade domiciliar ou de parente(s) que residiam em outro domicílio. Além disso, <strong>a construção não pode ter sido para venda ou troca de serviços</strong>.</p>
-			<!-- Realce [inicio] -->
-			<aside class="pullquote">
-				<q>As atividades de decoração, os pequenos reparos, incluindo reparos em instalações elétricas e a manutenção da pintura destinadas unicamente à conservação do domicílio devem ser consideradas como parte dos <strong>afazeres domésticos</strong>, cujos quesitos ainda serão apresentados.</q>
-			</aside>
-			<!-- Realce [fim] -->
 		</div>
 		<!-- Quesito 108 [fim] -->
 		

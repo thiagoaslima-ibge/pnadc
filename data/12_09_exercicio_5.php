@@ -8,7 +8,7 @@
 
 <script>	
 	var exerciseCompletion = 0;
-	var feedback01 = {
+	var feedback05 = {
     type: "multiple-choice",
     correctValue: "2",
     hitFeedback: '<b>Parabéns!</b> Você selecionou a opção correta. Tratando-se de atividade de produção de alimentos, deve ser considerada apenas aquela voltada para alimentos de grande durabilidade. As atividades de preparo de alimentos de pouca durabilidade, para o consumo imediato ou a serem congelados, para consumo em período relativamente curto, devem ser consideradas como parte dos afazeres domésticos. Portanto, cozinhar arroz ou feijão, no escopo da PNAD Contínua não deve ser considerado como produção para o próprio consumo e sim afazer doméstico.',

@@ -93,7 +93,13 @@ button {
 	&:focus { outline: 0; }
 }
 figure { margin-bottom: 1rem; }
-a {	
+
+a.block {
+	color: currentColor;
+	border: none;
+}
+
+a, .anchor-link {	
 	color: #000;
 	text-decoration: none;
 	border-bottom: solid 2px $colorMedium;

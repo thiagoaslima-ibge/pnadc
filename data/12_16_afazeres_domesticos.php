@@ -128,15 +128,9 @@ require "head.php";
 			<p>Pensar sobre a nossa cultura e sobre as relações sócio-históricas que contribuem para um grande peso de atividades domésticas sobre as mulheres é fator primordial para entendermos tal dinâmica social, propor reflexões e mudanças. Iniciar essa reflexão só é possível a partir de dados confiáveis sobre o “trabalho invisível”.</p>
 		</div>
 
-		<div class="col-xs-22 col-xs-offset-1 col-sm-18 col-sm-offset-3 col-md-14 col-md-offset-5 col-lg-10 col-lg-offset-7">
-			<h2>Atividades de cultivo, pesca ou criação de animais</h2>
-			<p>A primeira seção do questionário sobre produção para o próprio consumo é composta de três quesitos que visam identificar e qualificar as atividades em cultivo, pesca ou criação de animais. Vejamos, a seguir:</p>
-		</div>
-
 		<!-- Destaque [inicio] -->
 		<section class="feature feature--example">
 			<div class="col-xs-22 col-xs-offset-1 col-sm-18 col-sm-offset-3 col-md-14 col-md-offset-5 col-lg-10 col-lg-offset-7">
-				<h2 class="feature__title">Certificação de metodologias</h2>
 				<p>De acordo com a <abbr title="Pesquisa Nacional por Amostra de Domicílios" class="small-caps">PNAD</abbr> Contínua, dados de 2019, as mulheres que trabalham dedicavam em média 18,5 horas para afazeres domésticos e cuidados de pessoas da família, especialmente os filhos. Homens ocupados dedicavam em média 10,4 horas para essas atividades.</p>
 			</div>
 		</section>
@@ -326,9 +320,7 @@ require "head.php";
 		<figure class="img-container">
 			<div class="col-xs-22 col-xs-offset-1 col-sm-10 col-sm-offset-3 col-md-8 col-md-offset-5 col-lg-6 col-lg-offset-7 gutter-sm-right">
 				<picture>
-					<source srcset="dist/img/modulo-outras-formas/md/outras--quesito122.jpg" media="(min-width:600px)">
-					<source srcset="dist/img/modulo-outras-formas/sm/outras--quesito122.jpg" media="(min-width:1px)">
-					<img class="image" src="dist/img/modulo-outras-formas/md/outras--quesito122.jpg" alt="Quesito 122 contendo a pergunta 'Quem foi o informante da parte 4?'">
+					<img class="image" src="dist/img/modulo-outras-formas/sm/outras--quesito122.jpg" alt="Quesito 122 contendo a pergunta 'Quem foi o informante da parte 4?'">
 				</picture>
 			</div>
 			<figcaption class="col-xs-22 col-xs-offset-1 col-sm-5 col-sm-offset-0 col-md-3 col-lg-2 img-container__caption">
@@ -363,24 +355,25 @@ require "head.php";
 			</header>
 			<div class="row modal__content">
 				<div class="col-xs-24">
+					<br />
 					<ul class="bulleted-list">
 						<li>
-							<a href="https://www.terra.com.br/economia/mais-homens-fazem-tarefa-domestica-mas-mulheres-ainda-trabalham-o-dobro-em-casa-aponta-ibge,6ac3d772311f01c9626942c4111d2986vywy78l2.html">
+							<a target="_blank" rel="noopener noreferrer" href="https://www.terra.com.br/economia/mais-homens-fazem-tarefa-domestica-mas-mulheres-ainda-trabalham-o-dobro-em-casa-aponta-ibge,6ac3d772311f01c9626942c4111d2986vywy78l2.html">
 								Mais homens fazem tarefa doméstica, mas mulheres ainda trabalham o dobro em casa, aponta IBGE
 							</a></li>
 
-						<li><a href="https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/20912-mulheres-continuam-a-cuidar-mais-de-pessoas-e-afazeres-domesticos-que-homens">
+						<li><a target="_blank" rel="noopener noreferrer" href="https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/20912-mulheres-continuam-a-cuidar-mais-de-pessoas-e-afazeres-domesticos-que-homens">
 								Mulheres continuam a cuidar mais de pessoas e afazeres domésticos que homens
 							</a></li>
 
-						<li><a href="https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/18566-pnad-continua-2016-90-6-das-mulheres-e-74-1-dos-homens-realizaram-afazeres-domesticos-ou-cuidados-de-pessoas">
+						<li><a target="_blank" rel="noopener noreferrer" href="https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/18566-pnad-continua-2016-90-6-das-mulheres-e-74-1-dos-homens-realizaram-afazeres-domesticos-ou-cuidados-de-pessoas">
 								PNAD Contínua 2016: 90,6% das mulheres e 74,1% dos homens realizaram afazeres domésticos ou cuidados de pessoas
 							</a></li>
 
-						<li><a href="https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/24268-pais-tem-7-2-milhoes-de-pessoas-que-fazem-trabalho-voluntario">
+						<li><a target="_blank" rel="noopener noreferrer" href="https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/24268-pais-tem-7-2-milhoes-de-pessoas-que-fazem-trabalho-voluntario">
 								País tem 7,2 milhões de pessoas que fazem trabalho voluntário
 							</a></li>
-						<li><a href="https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/27878-com-envelhecimento-cresce-numero-de-familiares-que-cuidam-de-idosos-no-pais">
+						<li><a target="_blank" rel="noopener noreferrer" href="https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/27878-com-envelhecimento-cresce-numero-de-familiares-que-cuidam-de-idosos-no-pais">
 								Com envelhecimento, cresce número de familiares que cuidam de idosos no país
 							</a></li>
 					</ul>

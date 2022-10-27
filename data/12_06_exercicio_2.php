@@ -8,7 +8,7 @@
 
 <script>	
 	var exerciseCompletion = 0;
-	var feedback01 = {
+	var feedback02 = {
     type: "multiple-choice",
     correctValue: "1",
     hitFeedback: '<b>Parabéns!</b> Você selecionou a opção correta. Para ser considerado produção para o próprio consumo, o produto ou serviço deve ser somente para consumo de membro(s) do domicílio ou de parente(s) que residiam em outro domicílio. Além disso, as atividades realizadas mediante venda ou troca de produtos ou serviços não são deverão ser consideradas.',
